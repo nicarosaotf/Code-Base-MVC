@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+div.container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.container .form {
+    padding: 0px 20px;
+    max-width: 700px;
+}
+div.container .form input{
+    width: 95%;
+    border-radius: 8px;
+    height: 30px;
+    max-width: 700px;
+    padding: 0px;
+    margin: 10px 0px;
+    padding: 5px 10px;
+}
+div.container .form p{
+    margin: 0px;
+}
+div.container .form input[type = submit]{
+    max-width: 200px;
+}
+div.container .form label, div.container .form p{
+    text-align: left;
+    display: block;
+}
+div.container .form h1{
+    text-align: center;
+}
+form label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+form label span{
+    color: red;
+
+}
+.do-not-show {
+    display: none;
+}
+.show-message {
+    display: block;
+}
